@@ -1,0 +1,10 @@
+{% for program in programs %}
+    <!-- Display the programs in a table view -->
+    {% if program.is_hot %}
+    <!-- Highlight the 'hot' bug programs -->
+{% endif %}
+{% endfor %}
+
+{% for engineer in engineers %}
+    <!-- Show the leaderboard for engineers based on their ranking -->
+{% endfor %}
